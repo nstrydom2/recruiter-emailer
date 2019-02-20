@@ -1,1 +1,1 @@
-# recruiter_emailer
+# recruiter-emailer
