@@ -20,8 +20,8 @@ class Emailer():
         # Gmail config
         self.mail_server = 'smtp.gmail.com'
         self.port = 587
-        self.user = 'clemmingsam@gmail.com'
-        self.pword = 'hazehack9856'
+        self.user = ''
+        self.pword = ''
 
     def get_search_results(self, uri):
         html_doc = requests.get(uri, timeout=(5, 5))
