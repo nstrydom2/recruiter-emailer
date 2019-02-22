@@ -100,4 +100,4 @@ if __name__ is '__main__':
         email_list += emailer.get_email_addresses(url)
 
     for email in email_list:
-        emailer.mail('clemmingsam@gmail.com', email, '<NEED TO PICK A GOOD SUBJECT>', '<THINK ABOUT BODY>', None) #[COVER LETTER, RESUME])
+        emailer.mail('', email, '<NEED TO PICK A GOOD SUBJECT>', '<THINK ABOUT BODY>', None) #[COVER LETTER, RESUME])
